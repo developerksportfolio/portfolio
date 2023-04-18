@@ -118,7 +118,16 @@ button:hover{
     position: absolute;
     right: 0;
     bottom: 0;
-    max-height: 90vh;
+    max-height: 60vh;
+    z-index: -1;
+}
+
+.foto-stack{
+    position: absolute;
+    right: 0;
+    bottom: 10%;
+    max-height: 55vh;
+    z-index: -1;
 }
 
 /* main */
@@ -136,7 +145,7 @@ button:hover{
     color: var(--text-primary);
 }
 .content-title{
-    font-size: 80px;
+    font-size: 75px;
     font-weight: 600;
     color: var(--text-primary);
 
@@ -239,6 +248,9 @@ button:hover{
 .foto-mobile{
     display: none;
 }
+.foto-mobile-stack{
+    display: none;
+}
 @media screen and (max-width:780px) {
     .main-wrapper{
         padding: 40px 8%;
@@ -260,7 +272,7 @@ button:hover{
         font-size: 14px;
     }
     .content-title{
-        font-size: 36px;
+        font-size: 30px;
     }
     .subtitle-2{
         font-size: 20px;
@@ -292,16 +304,26 @@ button:hover{
     .foto{
         display: none;
     }
+    .foto-stack{
+        display: none;
+    }
     .foto-mobile{
         display: block;
         position: absolute;
+        bottom: 8%;
         right: 0;
-        bottom: 0;
+    }
+    .foto-mobile-stack{
+        display: block;
+        position: absolute;
+        right: 0;
+        bottom: 10%;
+        max-height: 20vh;
+        z-index: -1;
     }
     .portfolio-section{
         position: absolute;
         left: -4%;
-        bottom: 30%;
         transform: scale(.7);
     }
 }
@@ -343,6 +365,10 @@ button:hover{
 
 .web span{
     color: var(--color-primary);
+}
+
+.portfolio-section{
+    margin-top: 50px;
 }
 
 .bounce-animation {
