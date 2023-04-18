@@ -1,12 +1,11 @@
+let mainWrapper = document.getElementById( 'main-wrapper' );
+let darkMode    = false;
+
 document.querySelectorAll( '.bounce-animation' ).forEach( ( el ) => {
   el.addEventListener( 'click', handleButtonClick );
 } );
 
-let mainWrapper = document.getElementById( 'main-wrapper' );
-let darkMode    = false;
-
 function handleButtonClick() {
-
     if( darkMode ) {
       darkMode = false;
       mainWrapper.classList.add( 'light-mode' );

@@ -4,11 +4,11 @@
     box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
 }
+
 body{
     padding: 0;
     margin: 0;
-    overflow: hidden
-
+    overflow: hidden;
 }
 
 .light-mode{
@@ -19,6 +19,7 @@ body{
     --color-secondary-2: rgba(217, 255, 0, 0.522);
     transition: 1s ease-in-out;
 }
+
 .dark-mode{
     --bg-primary: #f9ecd1;
     --text-primary: #1E1E1E;
@@ -26,8 +27,8 @@ body{
     --color-secondary: #51BDFA;
     --color-secondary-2:rgb(144, 211, 250, .4);
     transition: 1s ease-in-out;
-
 }
+
 .main-wrapper{
     position: relative;
     width: 100vw;
@@ -35,8 +36,9 @@ body{
     max-width: 1440px;
     margin: auto;
     padding: 80px 8%;
-    overflow: hidden
+    overflow: hidden;
 }
+
 .bg-dot-top-right{
     position: absolute;
     width: 10px;
@@ -46,6 +48,7 @@ body{
     box-shadow: 2px 2px 150px 150px var(--color-secondary-2);
     z-index: -1;
 }
+
 .bg-dot-bottom-left{
     position: absolute;
     width: 10px;
@@ -55,6 +58,7 @@ body{
     box-shadow: 2px 2px 250px 250px rgba(81, 189, 250, 0.14);
     z-index: -1;
 }
+
 .bg-dot-bottom-right{
     position: absolute;
     width: 10px;
@@ -65,26 +69,28 @@ body{
     z-index: -1;
 }
 
-
 /* navigations */
-
 .title{
     font-weight: bold;
     font-size: 40px;
     color: var(--text-primary);
 }
+
 .title span{
    color: var(--color-primary);
 }
+
 .navigation{
     display: flex;
     align-items: center;
 }
+
 .menu{
     margin-left: auto;
     font-size: 20px;
     margin-right: 60px;
 }
+
 .menu-mobile{
     display: none;
 }
@@ -109,6 +115,7 @@ button{
     padding: 16px 30px;
     cursor: pointer;
 }
+
 button:hover{
     transform: scale(1.2);
     transition: .2s ease-in-out;
@@ -137,58 +144,69 @@ button:hover{
     align-content: center;
     height: 100%;
 }
+
 .content-wrapper{
     margin: auto 0;
 }
+
 .subtitle{
     font-size: 40px;
     color: var(--text-primary);
 }
+
 .content-title{
     font-size: 75px;
     font-weight: 600;
     color: var(--text-primary);
-
 }
+
 .content-title span{
     color: var(--color-primary);
 }
+
 .subtitle-2{
     font-size: 24px;
     color: var(--text-primary);
-
 }
+
 .skill-title{
     font-size: 14px;
     color: var(--text-primary);
-
 }
+
 .skill-title-border{
     background: var(--color-secondary);
     width: 80px;
     height: 3px;
 }
+
 .skill-list{
     margin-top: 32px;
 }
+
 .skill-list img{
     width: 50px;
     margin: 0 10px;
 }
+
 .other-skill{
     margin-top: 22px;
 }
+
 .portfolio-list{
     margin-top: 60px;
 }
+
 .portfolio-list img{
     border-radius: 15px;
     box-shadow: 0px 2px 100px 30px var(--color-secondary-2);
 }
+
 .portfolio-list img:hover{
     transform: scale(1.2);
     transition: .2s ease-in-out;
 }
+
 .card-group{
     display: flex;
     align-items: center;
@@ -203,21 +221,26 @@ button:hover{
     bottom: 15%;
     right: 35%
 }
+
 .card-group img{
     width: 30%;
     padding: 10px;
 }
+
 .card-body{
     width: 70%;
 }
+
 .card-title{
     width: 100%;
     font-size: 20px;
     font-weight: 500;
 }
+
 .card-subtitle{
     font-size: 12px;
 }
+
 /* card project done */
 .card-group-project{
     width: 190px;
@@ -227,6 +250,7 @@ button:hover{
     border-bottom-left-radius: 15px;
     z-index: 1002;
 }
+
 .card-group-project .card-body{
     width: 100%;
 }
@@ -243,14 +267,16 @@ button:hover{
     z-index: 1000;
     padding: 22px;
     box-shadow: 0px 2px 100px 30px var(--color-secondary-2);
-
 }
+
 .foto-mobile{
     display: none;
 }
+
 .foto-mobile-stack{
     display: none;
 }
+
 @media screen and (max-width:780px) {
     .main-wrapper{
         padding: 40px 8%;
@@ -266,7 +292,6 @@ button:hover{
         display: block;
         margin-left: auto;
     }
-
     /* main */
     .subtitle{
         font-size: 14px;
@@ -283,7 +308,6 @@ button:hover{
     .card-project-total, .card-group-project{
         transform: scale(.7);
     }
-
     .card-group{
         left: -2%;
         bottom: 38%;
@@ -332,6 +356,7 @@ button:hover{
 .menu-mobile svg{
     fill: #1E1E1E;
 }
+
 .dark-mode .menu-mobile svg{
     fill: #1E1E1E;
 }
@@ -345,11 +370,13 @@ button:hover{
     display: none;
     cursor: pointer;
 }
+
 .dark-mode .light-mode-btn{
     display: block;
     color: white !important;
     fill: white !important;
 }
+
 .light-mode .dark-mode-btn{
     display: block;
     color: black !important;
@@ -377,6 +404,7 @@ button:hover{
     animation-name: bounce-animation;
     animation-timing-function: cubic-bezier(0.280, 0.840, 0.420, 1);
 }
+
 @keyframes bounce-animation {
     0%   { transform: scale(1,1)      translateY(0); }
     10%  { transform: scale(1.1,.9)   translateY(0); }
