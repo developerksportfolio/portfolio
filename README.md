@@ -1,17 +1,14 @@
+<h3 align="center">Portfolio</h3>
 <p align="center">
-  <h3 align="center">Portfolio</h3>
-  <p align="center">
-    <br />
-    <a href="https://github.com/developerksportfolio/portfolio/-/issues">Report Bug</a>
-    ·
-    <a href="https://github.com/developerksportfolio/portfolio/-/issues">Request Feature</a>
-  </p>
+<br />
+<a href="https://github.com/developerksportfolio/portfolio/-/issues">Report Bug</a>
+<a href="https://github.com/developerksportfolio/portfolio/-/issues">Request Feature</a>
 </p>
 
 
 <!-- USAGE EXAMPLES -->
 
-![alt text](https://github.com/developerksportfolio/portfolio/images/blob/main/portfolio.png?raw=true)
+![alt text](https://github.com/developerksportfolio/portfolio/blob/main/images/portfolio.png?raw=true)
 
 
 <!-- ROADMAP -->
