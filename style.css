@@ -127,14 +127,16 @@ button:hover{
     bottom: 0;
     max-height: 60vh;
     z-index: -1;
+    display: block !important;
 }
 
 .foto-stack{
     position: absolute;
     right: 0;
     bottom: 10%;
-    max-height: 55vh;
+    max-height: 50vh;
     z-index: -1;
+    display: block !important;
 }
 
 /* main */
@@ -323,7 +325,7 @@ button:hover{
         bottom: 50%;
     }
     .main{
-       height: 40%;
+       height: 25%;
     }
     .foto{
         display: none;
@@ -334,22 +336,20 @@ button:hover{
     .foto-mobile{
         display: block;
         position: absolute;
-        bottom: 10%;
-        right: 0;
+        bottom: 8%;
     }
     .foto-mobile-stack{
         display: block;
         position: absolute;
-        right: 0;
-        bottom: 20%;
-        max-height: 20vh;
+        bottom: 15%;
+        max-height: 25vh;
         z-index: -1;
     }
     .portfolio-section{
         position: absolute;
-        left: -4%;
+        left: -5%;
         transform: scale(.7);
-        bottom: 40%;
+        margin-top: 0 !important;
     }
 }
 
