@@ -8,6 +8,6 @@
 <!-- CONTACT -->
 ## Contact
 
-Abedin Hyseni - info@abedinhyseni.website
+Abedin Hyseni - info@developerks.website
 
 Project Link: [https://github.com/developerksportfolio/portfolio](https://github.com/developerksportfolio/portfolio)

@@ -13,12 +13,12 @@
 }
 
 .wrapper{
-  margin-top: -15px;
+  margin-top: 0;
   margin-bottom: 30px;
 }
 
 .language{
-    padding:7px;
+    padding:5px;
     font-size:7px;
     border-radius: 0px 20px 0px 20px;
     margin:2px;
