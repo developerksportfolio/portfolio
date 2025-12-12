@@ -24,7 +24,7 @@ body{
     --bg-primary: #f9ecd1;
     --text-primary: #1E1E1E;
     --color-primary: #FDB12A;
-    --color-secondary: #51BDFA;
+    --color-secondary: #f9ecd1;
     --color-secondary-2:rgb(144, 211, 250, .4);
     transition: 1s ease-in-out;
 }
@@ -332,7 +332,7 @@ button:hover{
         bottom: 50%;
     }
     .main{
-       height: 20%;
+       height: 15%;
     }
     .foto{
         display: none;
@@ -403,7 +403,11 @@ button:hover{
 }
 
 .portfolio-section{
-    margin-top: 50px;
+    margin-top: 30px;
+}
+
+.portfolio-text{
+    color: rgb(144, 211, 250, .4);
 }
 
 .bounce-animation {
