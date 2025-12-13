@@ -1,3 +1,7 @@
+.portfolio{
+    display: none;
+}
+
 .dark-mode{
     background-color:#fff;
     transition: 1s ease-in-out;
