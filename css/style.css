@@ -88,8 +88,7 @@ body{
 
 .menu{
     margin-left: auto;
-    font-size: 20px;
-    margin-right: 60px;
+    text-align: center;
 }
 
 .menu-mobile{
@@ -291,11 +290,7 @@ button:hover{
         font-size: 22px;
     }
     .menu{
-        display: flex;
         margin-right: 0;
-        flex-wrap: wrap;
-        justify-content: space-between;
-        align-content: space-between;
     }
     .menu-mobile{
         display: block;
@@ -332,7 +327,7 @@ button:hover{
         bottom: 50%;
     }
     .main{
-       height: 20%;
+       height: 15%;
     }
     .foto{
         display: none;
@@ -343,7 +338,7 @@ button:hover{
     .foto-mobile{
         display: block;
         position: absolute;
-        bottom: 8%;
+        bottom: 5%;
     }
     .foto-mobile-stack{
         display: block;
@@ -351,6 +346,7 @@ button:hover{
         bottom: 15%;
         max-height: 25vh;
         z-index: -1;
+        margin-right: -20px;
     }
     .portfolio-section{
         position: absolute;
