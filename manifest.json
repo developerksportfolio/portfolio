@@ -1,7 +1,7 @@
 	{
 	  "name": "Developer KS Portfolio",
 	  "short_name": "Developer KS",
-	  "description": "Development Web Application",
+	  "description": "Development Web Application & Apps",
 	  "start_url": "/index.html",
 	  "display": "standalone",
 	  "background_color": "#ffffff",
