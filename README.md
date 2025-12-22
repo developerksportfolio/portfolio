@@ -6,7 +6,7 @@
 <!-- IMAGE -->
 ## Image
 
-![DeveloperKSPortfolio](https://github.com/developerksportfolio/portfolio/blob/main/images/developerksportfolio.png?raw=true)
+![DeveloperKSPortfolio](https://github.com/developerksportfolio/portfolio/blob/main/cover.png?raw=true)
 
 
 <!-- CONTACT -->
