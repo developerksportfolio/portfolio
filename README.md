@@ -1,13 +1,17 @@
-<h3 align="center">Portfolio</h3>
+<!-- TITLE -->
+## Title
 
-<!-- USAGE EXAMPLES -->
+<h3 align="center">Developer KS Portfolio</h3>
 
-![alt text](https://github.com/developerksportfolio/portfolio/blob/main/images/portfolio.png?raw=true)
+<!-- IMAGE -->
+## Image
+
+![DeveloperKSPortfolio](https://github.com/developerksportfolio/portfolio/blob/main/images/developerksportfolio.png?raw=true)
 
 
 <!-- CONTACT -->
 ## Contact
 
-Abedin Hyseni - info@developerks.website
+Email: info@developerks.website
 
-Project Link: [https://github.com/developerksportfolio/portfolio](https://github.com/developerksportfolio/portfolio)
+Website: [https://www.developerks.website](https://www.developerks.website)
