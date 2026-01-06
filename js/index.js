@@ -27,17 +27,17 @@ const menuphp = document.getElementById('menuphp');
 const menusql = document.getElementById('menusql');
 
 btncss.addEventListener('click', () => {
-  menucss.style.display = menucss.style.display === 'inline-flex' ? 'none' : 'inline-flex';
+  menucss.style.display = menucss.style.display === 'inline-block' ? 'none' : 'inline-block';
 });
 
 btnjs.addEventListener('click', () => {
-  menujs.style.display = menujs.style.display === 'inline-flex' ? 'none' : 'inline-flex';
+  menujs.style.display = menujs.style.display === 'inline-block' ? 'none' : 'inline-block';
 });
 
 btnphp.addEventListener('click', () => {
-  menuphp.style.display = menuphp.style.display === 'inline-flex' ? 'none' : 'inline-flex';
+  menuphp.style.display = menuphp.style.display === 'inline-block' ? 'none' : 'inline-block';
 });
 
 btnsql.addEventListener('click', () => {
-  menusql.style.display = menusql.style.display === 'inline-flex' ? 'none' : 'inline-flex';
+  menusql.style.display = menusql.style.display === 'inline-block' ? 'none' : 'inline-block';
 });
