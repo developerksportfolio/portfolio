@@ -19,12 +19,13 @@
 
 .language{
     padding:6px;
+    margin:2px;
     font-size:7px;
     @media screen and (max-width:780px) {
       padding:4px;
+      margin:2px;
       font-size: 6px;
     }
-    margin:2px;
 }
 
 .wrapper .icon{
@@ -131,3 +132,25 @@
   color: #ffffff;
 }
 
+.dropdown-menu {
+  display: none;
+  list-style: none;
+  padding: 0;
+  margin: 5px 0;
+  width: fit-content;
+  text-align: center;
+}
+
+.dropdown-menu li a {
+  display: block;
+  text-decoration: none;
+  padding: 6px;
+  margin:2px;
+  font-size: 7px;
+  @media screen and (max-width:780px) {
+      padding:4px;
+      margin:2px;
+      font-size: 6px;
+    }
+  border-radius: 30px 30px 0px 30px;
+}
