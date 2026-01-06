@@ -17,4 +17,27 @@ function handleButtonClick() {
     }
 }
 
+const btncss = document.querySelector('.dropdown-btn-css');
+const btnjs = document.querySelector('.dropdown-btn-js');
+const btnphp = document.querySelector('.dropdown-btn-php');
+const btnsql = document.querySelector('.dropdown-btn-sql');
+const menucss = document.getElementById('menucss');
+const menujs = document.getElementById('menujs');
+const menuphp = document.getElementById('menuphp');
+const menusql = document.getElementById('menusql');
 
+btncss.addEventListener('click', () => {
+  menucss.style.display = menucss.style.display === 'inline-flex' ? 'none' : 'inline-flex';
+});
+
+btnjs.addEventListener('click', () => {
+  menujs.style.display = menujs.style.display === 'inline-flex' ? 'none' : 'inline-flex';
+});
+
+btnphp.addEventListener('click', () => {
+  menuphp.style.display = menuphp.style.display === 'inline-flex' ? 'none' : 'inline-flex';
+});
+
+btnsql.addEventListener('click', () => {
+  menusql.style.display = menusql.style.display === 'inline-flex' ? 'none' : 'inline-flex';
+});
