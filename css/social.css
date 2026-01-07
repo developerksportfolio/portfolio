@@ -21,7 +21,7 @@
 }
 
 .language{
-    padding:7px;
+    padding:6px;
     margin:2px;
     font-size:7px;
     @media screen and (max-width:780px) {

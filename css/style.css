@@ -39,7 +39,7 @@ body{
     max-width: 1600px;
     margin: auto;
     padding: 60px 6%;
-    overflow: hidden;
+    overflow: auto;
 }
 
 .bg-dot-top-right{
@@ -177,7 +177,10 @@ button:hover{
 }
 
 .skill-title{
-    font-size: 14px;
+    font-size: 12px;
+    @media screen and (max-width:780px) {
+        font-size: 10px;
+    }
     color: var(--text-primary);
 }
 
@@ -190,7 +193,7 @@ button:hover{
 .skill-list{
     margin-top: 0;
     @media screen and (max-width:780px) {
-        width: min-content;
+        width: auto;
     }
 }
 
