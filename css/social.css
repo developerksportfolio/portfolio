@@ -44,7 +44,7 @@
   transition: all 0.2s cubic-bezier(0.68, -0.55, 0.265, 1.55);
   color: #333;
   text-decoration: none;
-  border-radius: 20px 20px 0px 20px;
+  border-radius: 0px 20px 0px 20px;
 }
 
 .wrapper .tooltip {
