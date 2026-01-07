@@ -188,7 +188,10 @@ button:hover{
 }
 
 .skill-list{
-    margin-top: 32px;
+    margin-top: 0;
+    @media screen and (max-width:780px) {
+        width: min-content;
+    }
 }
 
 .skill-list img{
@@ -197,7 +200,7 @@ button:hover{
 }
 
 .other-skill{
-    margin-top: 22px;
+    margin-top: 12px;
 }
 
 .portfolio-list{
@@ -352,9 +355,6 @@ button:hover{
     }
     .portfolio-section{
         position: absolute;
-        left: -5%;
-        transform: scale(.7);
-        margin-top: -40px !important;
     }
 }
 
@@ -401,7 +401,7 @@ button:hover{
 }
 
 .portfolio-section{
-    margin-top: 30px;
+    margin-top: 0;
 }
 
 .portfolio-text{
