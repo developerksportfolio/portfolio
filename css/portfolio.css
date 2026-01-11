@@ -611,3 +611,12 @@
     display: block;
     opacity: 1
 }
+
+.toggle-summary {
+    cursor: pointer;
+    color: #FDB12A;
+    background-color: rgb(144, 211, 250, .4);
+    list-style: none;
+    border-radius: 14px;
+    border-radius: 0px 20px 0px 20px;
+}
