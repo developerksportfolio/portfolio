@@ -21,11 +21,11 @@
 }
 
 .language{
-    padding:6px;
+    padding:7px;
     margin:2px;
     font-size:7px;
     @media screen and (max-width:780px) {
-      padding:6px;
+      padding:7px;
       margin:2px;
       font-size: 7px;
     }
@@ -152,11 +152,11 @@
 .dropdown-menu li a {
   display: block;
   text-decoration: none;
-  padding: 6px;
+  padding: 7px;
   margin:4px;
   font-size: 7px;
   @media screen and (max-width:780px) {
-      padding:6px;
+      padding:7px;
       margin:4px;
       font-size: 7px;
     }

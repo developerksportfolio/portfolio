@@ -615,13 +615,13 @@
 
 .toggle-summary {
     cursor: pointer;
-    color: #FDB12A;
-    background-color: rgb(144, 211, 250, .4);
+    color: #f9ecd1;
+    background-color: #1E1E1E;
     list-style: none;
     border-radius: 14px;
     border-radius: 0px 20px 0px 20px;
     width: max-content;
-    padding: 0px 10px;
+    padding: 0px 20px;
 }
 
 .no-decoration {
@@ -631,9 +631,9 @@
         font-size:20px;
     }
     border: 0;
-    background: #1E1E1E;
-    border-radius: 0px 20px 0px 20px;
-    color: #fff;
+    color: #1E1E1E;
+    background: rgb(144, 211, 250, .4);
+    border-radius: 20px 0px 20px 0px;
     padding: 10px;
     margin: 10px;
 }

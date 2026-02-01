@@ -113,10 +113,10 @@ a:hover{
 }
 
 button{
-    color: #1E1E1E;
+    color: var(--color-secondary);
     border: 0;
-    background: rgb(144, 211, 250, .4);
-    border-radius: 20px 0px 20px 0px;
+    background: #1E1E1E;
+    border-radius: 0px 20px 0px 20px;
     cursor: pointer;
 }
 
