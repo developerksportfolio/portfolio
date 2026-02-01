@@ -36,10 +36,10 @@ body{
     position: relative;
     width: 100vw;
     height: 100vh;
-    max-width: 1920px;
+    max-width: 1440px;
     margin: auto;
-    padding: 60px 6%;
-    overflow: auto;
+    padding: 40px 4%;
+    overflow: hidden;
 }
 
 .bg-dot-top-right{
@@ -113,15 +113,15 @@ a:hover{
 }
 
 button{
-    color: var(--color-secondary);
+    color: #1E1E1E;
     border: 0;
-    background: #1E1E1E;
-    border-radius: 0px 20px 0px 20px;
+    background: rgb(144, 211, 250, .4);
+    border-radius: 20px 0px 20px 0px;
     cursor: pointer;
 }
 
 button:hover{
-    color: var(--color-secondary);
+    color: var(--color-primary);
     transform: scale(1.2);
     transition: .2s ease-in-out;
 }
@@ -149,7 +149,6 @@ button:hover{
     display: flex;
     align-items: center;
     align-content: center;
-    height: 80%;
 }
 
 .content-wrapper{
@@ -346,7 +345,6 @@ button:hover{
     .foto-mobile{
         display: block;
         position: absolute;
-        bottom: 5%;
     }
     .foto-mobile-stack{
         display: block;

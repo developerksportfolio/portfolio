@@ -139,9 +139,9 @@
   display: none;
   list-style: none;
   padding: 0;
-  margin: 40px 0;
+  margin: 40px -6rem;
   @media screen and (max-width:780px) {
-    margin: 40px -20%;
+    margin: 40px -4rem;
   }
   width: fit-content;
   text-align: center;
@@ -153,12 +153,12 @@
   display: block;
   text-decoration: none;
   padding: 6px;
-  margin:2px;
+  margin:4px;
   font-size: 7px;
   @media screen and (max-width:780px) {
-      padding:4px;
-      margin:2px;
-      font-size: 6px;
+      padding:6px;
+      margin:4px;
+      font-size: 7px;
     }
   border-radius: 0px 20px 0px 20px;
 }
