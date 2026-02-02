@@ -36,9 +36,9 @@ body{
     position: relative;
     width: 100vw;
     height: 100vh;
-    max-width: 1440px;
+    max-width: 1920px;
     margin: auto;
-    padding: 40px 4%;
+    padding: 60px 6%;
     overflow: hidden;
 }
 
@@ -345,11 +345,12 @@ button:hover{
     .foto-mobile{
         display: block;
         position: absolute;
+        bottom: 5%;
     }
     .foto-mobile-stack{
         display: block;
         position: absolute;
-        bottom: 15%;
+        bottom: 30%;
         max-height: 25vh;
         z-index: -1;
         margin-right: -30px;
