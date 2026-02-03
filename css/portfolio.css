@@ -614,14 +614,20 @@
 }
 
 .toggle-summary {
-    cursor: pointer;
-    color: #f9ecd1;
-    background-color: #1E1E1E;
     list-style: none;
-    border-radius: 14px;
-    border-radius: 0px 20px 0px 20px;
     width: max-content;
-    padding: 0px 20px;
+    border: 0;
+    position: relative;
+    background-color: transparent;
+    padding: 0 10px;
+    height: auto;
+    align-items: center;
+    box-shadow: 0 10px 10px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+    transition: all 0.2s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+    color: #333;
+    text-decoration: none;
+    border-radius: 0px 20px 0px 20px;
 }
 
 .no-decoration {
@@ -630,10 +636,20 @@
     @media (min-width: 576px) {
         font-size:20px;
     }
-    border: 0;
-    color: #1E1E1E;
-    background: rgb(144, 211, 250, .4);
-    border-radius: 20px 0px 20px 0px;
     padding: 10px;
     margin: 10px;
+    list-style: none;
+    width: max-content;
+    border: 0;
+    position: relative;
+    background-color: transparent;
+    padding: 0 10px;
+    height: auto;
+    align-items: center;
+    box-shadow: 0 10px 10px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+    transition: all 0.2s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+    color: #333;
+    text-decoration: none;
+    border-radius: 0px 20px 0px 20px;
 }

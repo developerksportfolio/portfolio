@@ -36,9 +36,9 @@ body{
     position: relative;
     width: 100vw;
     height: 100vh;
-    max-width: 1920px;
+    max-width: 1500px;
     margin: auto;
-    padding: 60px 6%;
+    padding: 40px 4%;
     overflow: hidden;
 }
 
@@ -113,11 +113,20 @@ a:hover{
 }
 
 button{
-    color: var(--color-secondary);
     border: 0;
-    background: #1E1E1E;
-    border-radius: 0px 20px 0px 20px;
+    position: relative;
+    background-color: transparent;
+    padding: 0 10px;
+    width: auto;
+    height: auto;
+    font-size: 22px;
+    align-items: center;
+    box-shadow: 0 10px 10px rgba(0, 0, 0, 0.1);
     cursor: pointer;
+    transition: all 0.2s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+    color: #333;
+    text-decoration: none;
+    border-radius: 0px 20px 0px 20px;
 }
 
 button:hover{

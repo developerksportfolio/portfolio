@@ -21,11 +21,9 @@
 }
 
 .language{
-    padding:7px;
     margin:2px;
     font-size:7px;
     @media screen and (max-width:780px) {
-      padding:7px;
       margin:2px;
       font-size: 7px;
     }
@@ -141,7 +139,7 @@
   padding: 0;
   margin: 40px -6rem;
   @media screen and (max-width:780px) {
-    margin: 40px -4rem;
+    margin: 40px -5.5rem;
   }
   width: fit-content;
   text-align: center;
