@@ -14,7 +14,7 @@
 
 .wrapper{
   margin-top: 0;
-  margin-bottom: 30px;
+  margin-bottom: 15px;
    @media screen and (max-width:780px) {
     margin-bottom: 30px;
   }
