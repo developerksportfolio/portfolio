@@ -410,6 +410,9 @@ button:hover{
 
 .portfolio-section{
     margin-top: 0px;
+    @media screen and (max-width:780px) {
+        margin-top: 50px;
+    }
 }
 
 .portfolio-text{
