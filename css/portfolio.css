@@ -1,9 +1,87 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
 .portfolio{
     display: none;
 }
 
+.page-nav-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 4px;
+    padding: 20px 4% 0 4%;
+    text-align: center;
+}
+
+.page-nav-wrapper .no-decoration {
+    background-color: transparent;
+    color: #333;
+    font-size: 14px;
+    font-weight: 600;
+    padding: 4px 12px;
+    border-radius: 0px 20px 0px 20px;
+    box-shadow: 0 10px 10px rgba(0, 0, 0, 0.1);
+    transition: all 0.2s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+}
+
+.page-nav-wrapper .no-decoration:hover {
+    color: #FDB12A;
+    transform: scale(1.2);
+    transition: .2s ease-in-out;
+}
+
+.page-header {
+    padding: 10px 4% 10px 4%;
+}
+
+.title {
+    font-weight: bold;
+    font-size: 40px;
+    color: #1E1E1E;
+}
+
+.title span {
+    color: #FDB12A;
+}
+
+@media screen and (max-width: 780px) {
+    .title {
+        font-size: 26px;
+    }
+}
+
+html {
+    margin: 0;
+    padding: 0;
+    min-height: 100%;
+    background:
+        radial-gradient(ellipse at 92% 3%,   rgba(144, 211, 250, 0.50) 0%, transparent 42%),
+        radial-gradient(ellipse at 5%  95%,   rgba(81,  189, 250, 0.30) 0%, transparent 45%),
+        radial-gradient(ellipse at 82% 90%,   rgba(81,  189, 250, 0.35) 0%, transparent 38%),
+        radial-gradient(ellipse at 50% 100%,  rgba(144, 211, 250, 0.35) 0%, transparent 50%),
+        #ffffff;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    min-height: 100%;
+    background: transparent;
+}
+
 .dark-mode{
-    background-color:#fff;
+    --text-primary: #1E1E1E;
+    --color-primary: #FDB12A;
+    min-height: 100%;
+    background: transparent;
+    color: #1E1E1E;
     transition: 1s ease-in-out;
 }
 
@@ -652,4 +730,77 @@
     color: #333;
     text-decoration: none;
     border-radius: 0px 20px 0px 20px;
+    font-weight: 600;
+}
+
+.no-decoration:hover {
+    color: #FDB12A;
+    transform: scale(1.1);
+    transition: .2s ease-in-out;
+}
+
+.toggle-summary:hover {
+    color: #FDB12A;
+    transition: .2s ease-in-out;
+}
+
+.demo-header {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.demo-header a.no-decoration {
+    background-color: rgba(144, 211, 250, 0.15);
+    color: #333;
+    border-radius: 0px 20px 0px 20px;
+    padding: 6px 18px;
+    font-size: 16px;
+    font-weight: 600;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.08);
+}
+
+.demo-header a.no-decoration:hover {
+    color: #FDB12A;
+    transform: scale(1.1);
+    transition: .2s ease-in-out;
+}
+
+h4.portfolio-text {
+    font-size: 15px;
+    font-weight: 500;
+    color: #1E1E1E;
+    margin: 6px 0;
+}
+
+h4.portfolio-text a {
+    color: #FDB12A;
+    text-decoration: none;
+    font-weight: 400;
+}
+
+h4.portfolio-text a span {
+    color: #FDB12A;
+}
+
+h4.portfolio-text a:hover {
+    text-decoration: underline;
+}
+
+details {
+    margin-bottom: 20px;
+}
+
+details summary h2 {
+    font-size: 20px;
+    font-weight: 600;
+    color: #1E1E1E;
+    display: inline;
+}
+
+.divider {
+    height: 2px;
+    background: linear-gradient(to right, #FDB12A, transparent);
+    width: 100%;
+    margin: 15px 0 20px 0;
 }
