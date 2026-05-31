@@ -13,7 +13,6 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    gap: 4px;
     padding: 20px 4% 0 4%;
     text-align: center;
 }
@@ -122,7 +121,7 @@ body {
 
 @media (min-width: 768px) {
     .section-claim .divider {
-        width:5%
+        width:100%
     }
 }
 
@@ -462,7 +461,7 @@ body {
 
 @media (min-width: 768px) {
     #section-demo .divider {
-        width:5%
+        width:100%
     }
 }
 
@@ -802,5 +801,5 @@ details summary h2 {
     height: 2px;
     background: linear-gradient(to right, #FDB12A, transparent);
     width: 100%;
-    margin: 15px 0 20px 0;
+    margin: 5px 0 10px 0;
 }
