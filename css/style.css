@@ -19,7 +19,8 @@ body{
     --text-primary: #1E1E1E;
     --color-primary: #FDB12A;
     --color-secondary: #f9ecd1;
-    --color-secondary-2: rgba(217, 255, 0, 0.522);
+    /*--color-secondary-2: rgba(217, 255, 0, 0.522);*/
+    --color-secondary-2:rgb(144, 211, 250, .4);
     transition: 1s ease-in-out;
 }
 
